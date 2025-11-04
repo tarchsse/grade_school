@@ -2,8 +2,6 @@ import pickle
 import numpy as np
 import pandas as pd
 import gradio as gr
-from sklearn.preprocessing import LabelEncoder
-from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
 
 with open('rf_model.pkl', 'rb') as f:
     bundle = pickle.load(f)
